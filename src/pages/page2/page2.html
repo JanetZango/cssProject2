@@ -1,0 +1,59 @@
+<ion-content class="back">
+  <div class="background">
+    <div class="icon">
+      <ion-icon name="arrow-round-back" (click)="next()"></ion-icon>
+    </div>
+    <div class="word">MONITOR</div>
+  </div>
+
+  <ion-card class="changecard1">
+    <ion-item (click)="viewLink = 'card1'" [class.active]="viewLink == 'card1'">
+        <div class="dot" [class.active]="showActive == 'card1'"><ion-icon class="tick" width="5px" name="checkmark"></ion-icon></div>
+      <ion-thumbnail item-start>
+        <img src="../../assets/ch1.jpg">
+      </ion-thumbnail>
+      <h1>Connection Failed</h1>
+      <p>
+        <br> No available wireless networks found
+        <br> Please try somewhere else
+        <br> Can try to upgrade your mobile device
+      </p>
+    </ion-item>
+  </ion-card>
+  <ion-card class="changecard2">
+    <ion-item (click)="viewLink = 'card2'" [class.active]="viewLink == 'card2'">
+        <div class="dot" [class.active]="showActive == 'card2'"><ion-icon class="tick" width="5px" name="checkmark"></ion-icon></div>
+      <ion-thumbnail item-start>
+        <img src="../../assets/ch2.jpg">
+      </ion-thumbnail>
+      <h1>Access Failed</h1>
+      <p>
+        <br> Did not find your location
+        <br> Please open phone location service
+        <br> Check the network environment is
+        <br> good
+      </p>
+    </ion-item>
+  </ion-card>
+  <ion-card class="changecard3">
+    <ion-item (click)="viewLink = 'card3'" [class.active]="viewLink == 'card3'">
+        <div class="dot" [class.active]="showActive == 'card3'"><ion-icon class="tick" width="5px" name="checkmark"></ion-icon></div>
+      <ion-thumbnail item-start>
+        <img src="../../assets/ch3.jpg">
+      </ion-thumbnail>
+      <h1>Successfully Joined</h1>
+      <p>
+        <br> Very happy to congraduate you
+        <br> You have been recognized
+        <br> Become a member of our platform
+      </p>
+    </ion-item>
+  </ion-card>
+  <div class="move">
+    <div id="menu" align="center">
+      <img src="../../assets/wifi.png" height="100px" width="100px">
+      <h1 style="color:grey">Free Internet</h1>
+      <p class="change">Meet the above content to get a free network</p>
+    </div>
+  </div>
+</ion-content>

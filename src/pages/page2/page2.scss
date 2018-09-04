@@ -1,0 +1,77 @@
+page-page2 {
+.background{
+    background-color: rgb(81, 168, 221);
+    background-repeat: no-repeat;
+    height: 23%;
+    margin: 0;
+    padding: 0;
+}
+ion-card{
+    bottom :8%;
+    overflow: visible;
+    position: relative;   
+  
+}
+h1{
+    color:rgb(81, 168, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.changecard1{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.363);
+ 
+ 
+  
+}
+.changecard2{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.363);
+    margin-top:20px;
+  
+}
+.changecard3{
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.363);
+    margin-top:25px;
+
+  
+}
+.word{
+    color:white;
+    text-align: center;
+    margin-top:-9vh;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color:grey;
+}
+.icon{
+    color:white;
+    font-size: 1.5em;
+    padding:2.5%;
+
+}
+.back{
+    background-color: rgb(206, 231, 240);
+}
+.move{
+    margin-top:-10%;
+}
+.change{
+    color:rgba(128, 128, 128, 0.281);
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.445);
+    .dot{
+        margin-left: 65%;
+        position: absolute;
+        background:rgb(81, 168, 221);
+        width: 10px;
+        height: 10px;
+        border-radius: 30px;
+        font-size: 10px;
+     }
+     .tick{
+        margin-top: -40%;
+
+    }
+ }
+}
